@@ -20,15 +20,17 @@ NuGet.config
 ```
 
 # .NET SDK 11.0.100-preview.4.26210.111 or later
+
+** Make sure that you DON'T HAVE ANY OLD ALPHA release in your SDK folder**
+
 ```sh
-dotnet --version
+dotnet --info
+```
+
+Create new Blazor wasm app publish it with /p:UseMonoRuntime=false
+
+```sh
 dotnet new blazorwasm -f net11.0
-dotnet package add Microsoft.Extensions.DependencyInjection.Abstractions --prerelease
-dotnet package add Microsoft.Extensions.Configuration.Abstractions --prerelease
-dotnet package add Microsoft.Extensions.Hosting.Abstractions --prerelease
-dotnet package add Microsoft.Extensions.Logging.Abstractions --prerelease
-dotnet package add Microsoft.Extensions.Primitives --prerelease
-dotnet package add Microsoft.Extensions.Options --prerelease
 dotnet publish -bl -c Release /p:UseMonoRuntime=false /p:WasmEnableWebcil=false
 dotnet serve -p 8081 -d bin/Release/net11.0/publish/wwwroot
 ```
