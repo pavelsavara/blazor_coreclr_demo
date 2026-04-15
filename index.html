@@ -5,13 +5,31 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>blazor_coreclr_demo</title>
-    <base href="/blazor_coreclr_demo/" />
-    <link rel="preload" id="webassembly" />
+    <base href="/" />
+    <link href="_framework/dotnet.kh1yeect5u.js" rel="preload" as="script" fetchpriority="high" crossorigin="anonymous" integrity="sha256-+P3Mqd4z8gDOOs9ry7Fea3KseYIg8PWMWD91UPH+wdc=" />
     <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/app.css" />
     <link rel="icon" type="image/png" href="favicon.png" />
     <link href="blazor_coreclr_demo.styles.css" rel="stylesheet" />
-    <script type="importmap"></script>
+    <script type="importmap">{
+  "imports": {
+    "./_framework/blazor.webassembly.js": "./_framework/blazor.webassembly.88aimzpqq8.js",
+    "./_framework/dotnet.js": "./_framework/dotnet.kh1yeect5u.js",
+    "./_framework/dotnet.native.js": "./_framework/dotnet.native.yxoq6d31sk.js",
+    "./_framework/dotnet.runtime.js": "./_framework/dotnet.runtime.uz2dqcbypj.js"
+  },
+  "scopes": {},
+  "integrity": {
+    "./_framework/blazor.webassembly.88aimzpqq8.js": "sha256-SFZqXr9wnXZWO1g9PKFo3c2udJPFi6tx0oZ56Whvqps=",
+    "./_framework/blazor.webassembly.js": "sha256-SFZqXr9wnXZWO1g9PKFo3c2udJPFi6tx0oZ56Whvqps=",
+    "./_framework/dotnet.js": "sha256-+P3Mqd4z8gDOOs9ry7Fea3KseYIg8PWMWD91UPH+wdc=",
+    "./_framework/dotnet.kh1yeect5u.js": "sha256-+P3Mqd4z8gDOOs9ry7Fea3KseYIg8PWMWD91UPH+wdc=",
+    "./_framework/dotnet.native.js": "sha256-xooe+n/Z/5QSjzFvhGnJ5J5PBHEElmj5Fvay3Uoagsk=",
+    "./_framework/dotnet.native.yxoq6d31sk.js": "sha256-xooe+n/Z/5QSjzFvhGnJ5J5PBHEElmj5Fvay3Uoagsk=",
+    "./_framework/dotnet.runtime.js": "sha256-aopiJM9D0/wH5cXQ1gi+/Ab3YYD1dQFVHFRpklzHPxA=",
+    "./_framework/dotnet.runtime.uz2dqcbypj.js": "sha256-aopiJM9D0/wH5cXQ1gi+/Ab3YYD1dQFVHFRpklzHPxA="
+  }
+}</script>
 </head>
 
 <body>
@@ -28,7 +46,7 @@
         <a href="." class="reload">Reload</a>
         <span class="dismiss">🗙</span>
     </div>
-    <script src="_framework/blazor.webassembly#[.{fingerprint}].js"></script>
+    <script src="_framework/blazor.webassembly.88aimzpqq8.js"></script>
 </body>
 
 </html>
