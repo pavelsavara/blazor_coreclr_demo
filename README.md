@@ -1,6 +1,6 @@
-# blazor_coreclr_demo
+# Blazor WASM running CoreCLR interpreter
 
-[https://pavelsavara.github.io/blazor_coreclr_demo/](https://pavelsavara.github.io/blazor_coreclr_demo/)
+[Live Demo](https://pavelsavara.github.io/blazor_coreclr_demo/)
 
 NuGet.config
 ```xml
