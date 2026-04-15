@@ -29,6 +29,6 @@ dotnet package add Microsoft.Extensions.Hosting.Abstractions --prerelease
 dotnet package add Microsoft.Extensions.Logging.Abstractions --prerelease
 dotnet package add Microsoft.Extensions.Primitives --prerelease
 dotnet package add Microsoft.Extensions.Options --prerelease
-dotnet publish -bl -c Release /p:RuntimeFlavor=CoreCLR /p:WasmEnableWebcil=false
+dotnet publish -bl -c Release /p:UseMonoRuntime=false /p:WasmEnableWebcil=false
 dotnet serve -p 8081 -d bin/Release/net11.0/publish/wwwroot
 ```
