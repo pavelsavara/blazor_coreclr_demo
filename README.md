@@ -21,7 +21,7 @@ NuGet.config
 
 # .NET SDK 11.0.100-preview.4.26210.111 or later
 
-** Make sure that you DON'T HAVE ANY OLD ALPHA release in your SDK folder**
+**Make sure that you DON'T HAVE ANY OLD ALPHA release in your SDK folder**
 
 ```sh
 dotnet --info
