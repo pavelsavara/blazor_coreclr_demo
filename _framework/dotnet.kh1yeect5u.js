@@ -1840,7 +1840,7 @@ const dotnet = new HostBuilder();
 dotnet.withConfig(/*json-start*/{
   "mainAssemblyName": "blazor_coreclr_demo",
   "resources": {
-    "hash": "sha256-00t1j/dlZPiZOilcG5ifuY3ajpc5rXTLP9Uw8wp/Dlk=",
+    "hash": "sha256-RkO8e9WJGuAgHdAQJYDQ2p9WaQyp9BBZxk2mWTAPGYI=",
     "jsModuleNative": [
       {
         "name": "dotnet.native.yxoq6d31sk.js"
@@ -2105,8 +2105,8 @@ dotnet.withConfig(/*json-start*/{
       },
       {
         "virtualPath": "blazor_coreclr_demo.dll",
-        "name": "blazor_coreclr_demo.89rks0l2zj.dll",
-        "hash": "sha256-BM2rb8aXFRmFxmTxFdjPH6cH6NVdsUjKahykGKKbZec=",
+        "name": "blazor_coreclr_demo.goq1e1q8mq.dll",
+        "hash": "sha256-UE9aPHDRQp0YDF97Xx2gKtwtL86kf72l9IYf1lc37Kc=",
         "cache": "force-cache"
       }
     ]
