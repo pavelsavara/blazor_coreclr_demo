@@ -26,6 +26,7 @@ dotnet new blazorwasm -f net11.0
 dotnet package add Microsoft.Extensions.DependencyInjection.Abstractions --prerelease
 dotnet package add Microsoft.Extensions.Configuration.Abstractions --prerelease
 dotnet package add Microsoft.Extensions.Hosting.Abstractions --prerelease
+dotnet package add Microsoft.Extensions.Logging.Abstractions --prerelease
 dotnet package add Microsoft.Extensions.Primitives --prerelease
 dotnet package add Microsoft.Extensions.Options --prerelease
 dotnet publish -bl -c Release /p:RuntimeFlavor=CoreCLR /p:WasmEnableWebcil=false
